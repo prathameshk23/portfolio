@@ -25,12 +25,18 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import book from "./company/book.png";
+import open_book from "./company/open_book.png";
+import student from "./company/student.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  student,
+  book,
+  open_book,
   logo,
   backend,
   creator,

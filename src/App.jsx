@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Stars from "./components/canvas/Stars";
-import Experience from "./components/Experience";
+import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Feedbacks from "./components/Feedbacks";
 import Tech from "./components/Tech";
@@ -18,7 +18,7 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        <Experience />
+        <Education />
         <Tech />
         <Works />
         <Feedbacks />
