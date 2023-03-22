@@ -4,16 +4,12 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
-  mongodb,
+  python,
   git,
-  figma,
   docker,
   carrent,
   jobit,
@@ -22,16 +18,22 @@ import {
   open_book,
   student,
   threejs,
+  java,
+  linux,
+  vuejs,
+  aws,
+  cloud,
+  sql
 } from "../assets";
 
 export const navLinks = [
   {
-    id: "educations",
-    title: "Education",
-  },
-  {
     id: "about",
     title: "About",
+  },
+  {
+    id: "educations",
+    title: "Education",
   },
   {
     id: "contact",
@@ -72,28 +74,29 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Vue Js",
+    icon: vuejs,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "MySQL",
+    icon: sql,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Google Cloud",
+    icon: cloud,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Linux",
+    icon: linux,
+    
   },
   {
     name: "Three JS",
@@ -104,12 +107,20 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "AWS",
+    icon: aws,
   },
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Python",
+    icon: python,
   },
 ];
 

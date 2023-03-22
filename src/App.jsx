@@ -7,7 +7,7 @@ import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Feedbacks from "./components/Feedbacks";
 import Tech from "./components/Tech";
-import Works from "./components/Works";
+import Projects from "./components/Projects";
 
 const App = () => {
   return (
@@ -20,7 +20,7 @@ const App = () => {
         <About />
         <Education />
         <Tech />
-        <Works />
+        <Projects />
         <Feedbacks />
         <div className="relative z-0">
           <Contact />
