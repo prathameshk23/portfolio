@@ -20,12 +20,6 @@ const App = () => {
         <About />
         <Education />
         <Tech />
-        <Projects />
-        <Feedbacks />
-        <div className="relative z-0">
-          <Contact />
-          <Stars /> 
-        </div>
       </div>
     </BrowserRouter>
   );
